@@ -20,7 +20,7 @@ function Login() {
 
         try {
             const response = await axios.post(
-                "https://todo-backend-ocq4.onrender.com/api/auth/login",
+                "https://todo-backend-7tqo.onrender.com/api/auth/login",
                 {
                     email,
                     password
@@ -53,7 +53,7 @@ function Login() {
     };
 
     return (
-        <div clasName="auth-container">
+        <div className="auth-container">
             <div className="auth-box">
                 <h1> Login Account</h1>
                 <form onSubmit={submitData}>
