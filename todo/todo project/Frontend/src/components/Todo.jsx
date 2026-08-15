@@ -15,7 +15,7 @@ function Todo() {
 
     const token = localStorage.getItem("token");
 
-    const API_URL = "https://todo-backend-ocq4.onrender.com/api/todos";
+    const API_URL = "https://todo-backend-7tqo.onrender.com/api/todos";
 
     const getTodo = async () => {
         try {
